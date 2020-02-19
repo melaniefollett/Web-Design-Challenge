@@ -1,7 +1,34 @@
 body{
-    background: lightgrey;
+    background: lightgray;
 }
 
-.font-family {
-    font-family: "Times New Roman", Times, serif;
-  }
+@media (min-width: 0px) {
+    .navbar {
+        background: #17a2b8;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        background: #17a2b8;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        background: #17a2b8;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        background: white;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        background: white;
+    }
+}
+  
