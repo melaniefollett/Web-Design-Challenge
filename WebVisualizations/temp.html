@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- My CSS style sheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Max Temperature</title>
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-2 py-0">
+        <a class="navbar-brand text-white font-family-serif bg-info p-2 ml-5" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/index.html">Lattitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/humid.html">Humidity</a>
+                  <a class="dropdown-item" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/cloud.html">Cloudiness</a>
+                  <a class="dropdown-item" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/wind.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/compare.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Course%20Work/Web-Design-Challenge/WebVisualizations/data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      
+    </nav>
+
+    <div class="container pt-5 px-0">
+      <div class="row">
+        <div class="col-md-7 bg-light">
+          <h2 class="text-info pt-4 pl-2 pr-2 pb-2">Max Temperature</h2>
+          <hr>
+          <br>
+          <img src="C:\Course Work\Web-Design-Challenge\WebVisualizations\images/lat_vs_temp.png" class="mx-auto d-block" alt="Latitude vs. Max Temperature">
+          <br>
+          <p class="p-2">In the Northern hemisphere there is a strong negative correlation between latitude and max temp (model accounts for 84% of variation).  As latitude increases, max temp decreases.  As latitude increases in the Northern hemisphere you are getting further away from the equator.  Thus, you are further away from the sun and the temperature becomes colder.
+            In the Southern hemisphere the opposite occurs.  There is a weak positive correlation between latitude and max temp (model accounts for 44% of variation).  As latitude increases, max temp slightly increases.  Since latitude in the Southern hemisphere is measured in negative values, as latitude increases you are approaching the equator.  Thus, you are closer to the sun and the temperature becomes warmer.
+            </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-4 bg-light">
+          <h3 class="text-info pt-4 pl-2 pr-2 pb-2">Visualizations</h3>
+          <hr>
+          <br>
+          <img src="C:\Course Work\Web-Design-Challenge\WebVisualizations\images/lat_vs_temp.png" class="w-50 p-2 border border-info" alt="Latitude vs. Max Temperature">
+          <img src="C:\Course Work\Web-Design-Challenge\WebVisualizations\images/lat_vs_humid.png" class="w-50 p-2 float-right" alt="Latitude vs. Humidity">
+          <img src="C:\Course Work\Web-Design-Challenge\WebVisualizations\images/lat_vs_cloud.png" class="w-50 p-2" alt="Latitude vs. Cloudiness">
+          <img src="C:\Course Work\Web-Design-Challenge\WebVisualizations\images/lat_vs_wind.png" class="w-50 p-2 float-right" alt="Latitude vs. Wind Speed">
+        </div>
+      </div>
+    </div>
+
+    <!--Javascript pages needed for dropdown menu-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
