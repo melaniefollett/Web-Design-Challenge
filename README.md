@@ -23,6 +23,11 @@ A "Data" page:
 -Displays a responsive table (using bootstrap) containing the data used in the visualizations.
 
 
+# Tools/Technologies Used
+- Bootstrap
+- HTML/CSS
+- Pandas (to convert dataframe table to html table)
+
 # Final Product
 The website is available for viewing on GitHub pages (https://melaniefollett.github.io/web-visualization-dashboard/).
 
