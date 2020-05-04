@@ -20,7 +20,7 @@ A "Comparisons" page:
 - The grid is responsive to screen-size.
 
 A "Data" page:
--Displays a responsive table (using bootstrap) containing the data used in the visualizations.
+- Displays a responsive table (using bootstrap) containing the data used in the visualizations.
 
 
 # Tools/Technologies Used
