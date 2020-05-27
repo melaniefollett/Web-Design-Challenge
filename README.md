@@ -1,4 +1,4 @@
-# Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard (WeatherPy)
 
 # Latitude - Weather Analysis Dashboard with Attitude
 For this project I created a visualization dashboard website using visualizations I had created in a past project (please see weather-python-api repo). In building this dashboard, I created individual pages for each plot and a means by which to navigate between them. These pages contained the visualizations and their corresponding explanations. I also created a landing page, a page where users can see a comparison of all of the plots, and another page where users can view the data used to build them.
